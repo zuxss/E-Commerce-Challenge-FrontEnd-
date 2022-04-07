@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway&display=swap"
+    rel="stylesheet"
+  />
+   
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://kit.fontawesome.com/6c86473e39.js" crossorigin="anonymous"></script>
+    <title>E-Commerce</title>
   </head>
   <body>
+    <div class="container">
     <header>
-      <h1>Aluriña-Commerce</h1>
-      <input placeholder="Buscar"></input>
-      <button>Buscar</button>
+      <img id="logo" src="assets/img/pokemon-store.png">
+      <div id="search">
+      <input id="searchBar" placeholder="Buscar"></input>
+      <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
       <navbar>
-        <ul>
+        <ul id="navbar__links">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Productos</a></li>
           <li><a href="#">Carrito</a></li>
@@ -20,46 +31,50 @@
         </ul>
       </navbar>
     </header>
+    <main>
       <section id="banner">
+        <div class="banner__text">
           <h1>Ofertas</h1>
           <p>Descuentos de hasta 75% en productos seleccionados</p>
-          <button>Ver ofertas</button>
+          <button id="banner__button">Ver ofertas</button>
+        </div>
       </section>
-      <section id="">
-          <h3>Videojuegos</h3>
-          <ul>
-              <li><img src="" alt="">1</li>
-              <li><img src="" alt="">2</li>
-              <li><img src="" alt="">3</li>
-              <li><img src="" alt="">4</li>
-              <li><img src="" alt="">5</li>
-              <li><img src="" alt="">6</li>
+      <section class="items">
+          <h3>GameBoy</h3>
+          <ul >
+              <li><img src="assets/img/juego2.jpg" alt="">Pokémon Rojo</li>
+              <li><img src="assets/img/juego3.jpg" alt="">Pokémon Azul</li>
+              <li><img src="assets/img/juego4.jpg" alt="">Pokémon Amarillo</li>
+              <li><img src="assets/img/pokemon-green.jpg" alt="">Pokémon Verde (JP)</li>
+              <li><img src="https://azgamesweb.files.wordpress.com/2014/04/gameboy-box.jpg" alt="">GameBoy</li>
+              <li><img src="https://cdn.vox-cdn.com/thumbor/LPZg4PfzrsnBwO1nYo8Y1VfmjEo=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13148823/jbareham_180924_ply0802_0010.jpg" alt="">Pokémon Combo</li>
           </ul>
       </section>
-      <section id="">
-        <h3>Star Wars</h3>
+      <section class="items">
+        <h3>GameBoy Color</h3>
         <ul>
-            <li><img src="" alt="">1</li>
-            <li><img src="" alt="">2</li>
-            <li><img src="" alt="">3</li>
-            <li><img src="" alt="">4</li>
-            <li><img src="" alt="">5</li>
-            <li><img src="" alt="">6</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/6/6b/Pokemon_Edici%C3%B3n_Oro.jpg" alt="">Pokémon Oro</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/7/73/Pokemon_Edici%C3%B3n_Plata.jpg" alt="">Pokémon Plata</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/3/3b/Pokemon_Edici%C3%B3n_Cristal.jpg" alt="">Pokémon Cristal</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/4/4e/Pokemonpinballbox-es.jpg" alt="">Pokémon Pinball </li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png" alt="">Pokémon TCG</li>
+            <li><img src="https://www.rimsfo.com/wp-content/uploads/2021/09/42b01cb6bed7c02d2b0ba61c0e36d241cc7d5a06_101-1.jpg" alt="">GameBoy Pikachu Edition</li>
         </ul>
     </section>
-    <section id="">
-        <h3>Indumentaria</h3>
+    <section class="items">
+        <h3>GameBoy Advance</h3>
         <ul>
-            <li><img src="" alt="">1</li>
-            <li><img src="" alt="">2</li>
-            <li><img src="" alt="">3</li>
-            <li><img src="" alt="">4</li>
-            <li><img src="" alt="">5</li>
-            <li><img src="" alt="">6</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/0/02/Caratula_Esmeralda.jpg" alt="">Pokémon Esmeralda</li>
+            <li><img src="assets/img/juego9.png" alt="">Pokémon Rojo Fuego</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/0/03/Car%C3%A1tula_de_Rub%C3%AD.png" alt="">Pokémon Rojo Fuego</li>
+            <li><img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d3/latest/20211204124644/Car%C3%A1tula_de_Zafiro.png/200px-Car%C3%A1tula_de_Zafiro.png" alt="">Pokémon Zafiro</li>
+            <li><img src="https://static.wikia.nocookie.net/espokemon/images/3/31/Car%C3%A1tula_de_Verde_Hoja.png" alt="">Pokémon Verde Hoja</li>
+            <li><img src="https://media.vandal.net/m/4994/pokemon-mystery-dungeon-red-rescue-team-201421513557_1.jpg" alt="">Pokémon Mystery Dungeon Red</li>
         </ul>
     </section>
     <section id="contacto">
-        <ul>
+      <img src="assets/img/pokemon-center.png">
+        <ul class="contacto__links">
             <li><a href="">Quienes somos</a></li>
             <li><a href="">Politica de Privacidad</a></li>
             <li><a href="">Programa de Fidelidad</a></li>
@@ -80,12 +95,14 @@
             required
           ></textarea>
 
-          <input type="submit" id="enviar-button" value="Enviar Mensaje" />
+          <input type="submit" id="contacto__button" value="Enviar Mensaje" />
         </form>
       </section>
+    </main>
     
     <footer>
         <p>@Zuxss</p>
       </footer>
+    </div>
   </body>
 </html>

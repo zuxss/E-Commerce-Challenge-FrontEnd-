@@ -1,0 +1,26 @@
+.items {
+  margin: 5%;
+  align-items: center;
+}
+.items h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.items ul {
+  display: flex;
+
+  list-style: none;
+}
+
+.items li {
+  text-align: center;
+  width: 100%;
+  height: 180px;
+  margin: 20px;
+  font-weight: bold;
+}
+.items img {
+  height: 180px;
+  width: 100%;
+}

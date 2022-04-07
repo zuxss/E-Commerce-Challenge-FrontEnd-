@@ -1,0 +1,51 @@
+#contacto {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  background-color: #0054a6;
+}
+#contacto img {
+  width: 100px;
+  height: 100px;
+  padding: 30%;
+}
+.contacto__links li {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+form h2 {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+form #name,
+#msj {
+  display: block;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+#name,
+#msj {
+  height: 30px;
+  width: 75%;
+}
+
+#msj {
+  height: 130px;
+  resize: none;
+  padding-top: 20px;
+}
+
+#contacto__button {
+  background-color: white;
+  color: #0054a6;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+}

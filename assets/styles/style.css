@@ -1,0 +1,26 @@
+.container {
+  font-family: "Raleway", sans-serif;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "banner"
+    "main"
+    "footer ";
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
